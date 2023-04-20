@@ -1,0 +1,100 @@
+/* Main styles */
+.plugin-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  color: #333333;
+  font-family: Arial, sans-serif;
+}
+
+.plugin-container h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.plugin-container p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Form styles */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 16px;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  background-color: #F5F5F5;
+  color: #333333;
+}
+
+/* Button styles */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  color: #FFFFFF;
+  background-color: #AADB1E;
+  border: 1px solid #AADB1E;
+}
+
+.btn:hover {
+  background-color: #7FB511;
+  border-color: #7FB511;
+}
+
+/* Image preview styles */
+.image-preview {
+  max-width: 100%;
+  max-height: 400px;
+  margin-bottom: 20px;
+}
+
+/* Crop preview styles */
+.crop-preview {
+  width: 100%;
+  height: 600px;
+  margin-bottom: 20px;
+  background-color: #F5F5F5;
+  background-image: url('crop-preview.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+/* Size select styles */
+.size-select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 16px;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  background-color: #F5F5F5;
+  color: #333333;
+  margin-bottom: 20px;
+}
